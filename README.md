@@ -6,7 +6,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
+<!-- <h2>Video Demonstration</h2> -->
 
 <!-- - ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com) -->
 
@@ -24,9 +24,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create a Resource Group in Azure 
 - Create a VM in the resource group
-- Item 3
-- Item 4
-- Item 5
+- Enable / install IIS in windows
+- Download PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from Microsoft
+- Rewrite Module (rewrite_amd64_en-US.msi)
+- PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
+- Microsoft Visual C++ Redistributable(2015-2022)
 
 <h2>Creating Resource Group and Virtual Machine in Azure </h2>
 <p>
@@ -73,5 +75,37 @@ After downloading Microsoft Remote Desktop, open the app and enter the Public IP
 <p> 
 Enter the administrator information we provided while creating the VM. a message will appear click continue to log in to the VM.
 </p>
-
 <br />
+
+<h2 align="center"> Installation </h2>
+<p>
+Installing / Enabling IIS in widows
+</p>
+<img width="1120" alt="Screen Shot 2023-04-01 at 3 29 10 PM" src="https://user-images.githubusercontent.com/88648101/230892706-81acbca4-43ab-4e0c-8c58-cfb4901a2271.png">
+
+<img width="1729" alt="Screen Shot 2023-04-10 at 7 38 52 AM" src="https://user-images.githubusercontent.com/88648101/230895097-84314540-682f-4a06-bcd5-790a75700da5.png">
+<p> 
+ In the windows VM, search control panel and clicke on programs. In "Programs and Features" clicke on "Turn Windows Features on or off". A windows features box will appear check internet information services(IIS). Expand IIS by clicking on the plus sign next to it. Expand World Wide Web Services and expand Application Development Features. in Application Development Feautes check CGI. click ok. To check if we did it right, open a web browser and type in the loopback address 127.0.0.1 the default IIS web page should load up as seen in the second image.
+</p>
+<br />
+
+- Download PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from Microsoft
+- Download Rewrite Module (rewrite_amd64_en-US.msi) and create a directory called PHP in the root of the c: drive
+- Download PHP Version 7.3.8 and unzip the contents into the PHP Folder we just created.
+- Download Microsoft Visual C++ Redistributable(2015-2022)
+
+Download MySQL Server 5.5. in the setup choose typical for type of setup and finish downloading. a new window will pop up asking to configure instance. select the "standard configuration".  click next and leave the check on "Install As Window Service". click next and enter the a password in "New root password". Make sure to rememeber this password as it will be used to log in to your MySQL instance. click next and execute to finish installing. 
+<br />
+<p>
+ Configuration in IIS
+</p>
+<img width="1331" alt="Screen Shot 2023-04-10 at 10 45 41 AM" src="https://user-images.githubusercontent.com/88648101/230924896-a4343550-ddae-4c50-a28c-8a7cdf1e82c7.png">
+<p>
+ Click on start type in IIS and run as an administrator. In IIS,you should see the PHP Manager we downloaded earlier. double click it and click on the Register new PHP version. Select the path of the new PHP by browsing to the PHP folder we created and selecting php-cgi. click ok and restart the  server by clicking on the vm and clicking restart under the Manage Server.
+</p>
+<br />
+<p>
+Download osTicket
+  
+ https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+<p/>

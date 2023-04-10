@@ -71,7 +71,7 @@ After downloading Microsoft Remote Desktop, open the app and enter the Public IP
 
 <img width="988" alt="Screen Shot 2023-03-31 at 9 30 14 PM" src="https://user-images.githubusercontent.com/88648101/229259524-4f019586-1755-40ea-94f6-c0a1b098d175.png">
 <p> 
-Enter the administrator information we provided while crating the VM. a message will appear click continue to log in to the VM.
+Enter the administrator information we provided while creating the VM. a message will appear click continue to log in to the VM.
 </p>
 
 <br />

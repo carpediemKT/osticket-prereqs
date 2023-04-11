@@ -133,7 +133,21 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <p>Refresh the osTicket web page and observe the changes</p>
 
 <h3>Rename ost-sampleconfig.php to ost-config.php</h3>
-<p>open file exploer and browse to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php.
+<img width="545" alt="Screen Shot 2023-04-10 at 11 40 42 PM" src="https://user-images.githubusercontent.com/88648101/231212531-df270fe6-59cc-454b-81ca-5b9aade65b77.png">
+<p>open file exploer and browse to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php. Change ost-sampleconfig.php to ost-config.php.
 </p>
+<br />
+
+<h3>Setting Permissions</h3>
+
+<img width="560" alt="Screen Shot 2023-04-11 at 11 32 34 AM" src="https://user-images.githubusercontent.com/88648101/231214563-2bbc874d-6b0f-4433-a3d7-ee3d1a463d1e.png">
+
+<img width="840" alt="Screen Shot 2023-04-11 at 11 33 45 AM" src="https://user-images.githubusercontent.com/88648101/231214609-6dddbb47-2a74-4a6b-a43c-c9e94ee7ed0f.png">
+
+<img width="934" alt="Screen Shot 2023-04-11 at 11 36 17 AM" src="https://user-images.githubusercontent.com/88648101/231214856-208ed121-6236-41c7-9d80-be20be4800fa.png">
+
+<img width="978" alt="Screen Shot 2023-04-11 at 11 37 46 AM" src="https://user-images.githubusercontent.com/88648101/231215232-ed793715-4512-4b9d-ba6f-9c422627ed69.png">
+
+<img width="799" alt="Screen Shot 2023-04-11 at 11 38 55 AM" src="https://user-images.githubusercontent.com/88648101/231215637-e989f434-9862-4051-b492-890b0a4c0784.png">
 
 

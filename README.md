@@ -120,3 +120,13 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <img width="1126" alt="Screen Shot 2023-04-10 at 10 53 02 PM" src="https://user-images.githubusercontent.com/88648101/231044666-dceac4d0-b096-4790-a2ef-e8f9495d0e9c.png">
 <p>In the IIS manager restart the server by clicking on the server and clicking on restart under Manage Server. Expand "Sites", "Default Web Site". Click on osTicket and click on Browse *:80 (http) under Manage Folder. If everything was set right, you should see osTicket open your web browser.</p>
 
+<img width="1150" alt="Screen Shot 2023-04-10 at 11 19 51 PM" src="https://user-images.githubusercontent.com/88648101/231047705-2c584d25-5d77-4781-9e38-3e42982a6613.png">
+
+<img width="1151" alt="Screen Shot 2023-04-10 at 11 22 10 PM" src="https://user-images.githubusercontent.com/88648101/231048022-47b7a23b-d311-4ca6-bd3d-40ecb98ef561.png">
+
+<p>In IIS, click on osTicket and open PHP Manager. Click on enable or disable an extension, and enable the following:</p>
+- Enable php_imap.dll
+- Enable php_intl.dll
+- Enable php_opcache.dll
+
+

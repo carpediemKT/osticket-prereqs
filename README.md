@@ -125,6 +125,7 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <img width="1151" alt="Screen Shot 2023-04-10 at 11 22 10 PM" src="https://user-images.githubusercontent.com/88648101/231048022-47b7a23b-d311-4ca6-bd3d-40ecb98ef561.png">
 
 <p>In IIS, click on osTicket and open PHP Manager. Click on enable or disable an extension, and enable the following:</p>
+
 - Enable php_imap.dll
 - Enable php_intl.dll
 - Enable php_opcache.dll

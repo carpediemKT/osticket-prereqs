@@ -139,6 +139,7 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <br />
 
 <h3>Setting Permissions</h3>
+## we allow everyone to have access this file becuase it a lab and we will be using random users. 
 
 <img width="560" alt="Screen Shot 2023-04-11 at 11 32 34 AM" src="https://user-images.githubusercontent.com/88648101/231214563-2bbc874d-6b0f-4433-a3d7-ee3d1a463d1e.png">
 
@@ -149,5 +150,7 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <img width="978" alt="Screen Shot 2023-04-11 at 11 37 46 AM" src="https://user-images.githubusercontent.com/88648101/231215232-ed793715-4512-4b9d-ba6f-9c422627ed69.png">
 
 <img width="799" alt="Screen Shot 2023-04-11 at 11 38 55 AM" src="https://user-images.githubusercontent.com/88648101/231215637-e989f434-9862-4051-b492-890b0a4c0784.png">
-
+<p>
+  Right-click ost-config.php, click properties and go to security. Click Advance and disable inheritance. click on "Remove all inherited permisiions from this object". Click Add and then Select a principel. Type in "Everyone" in the box "Enter the object name to select", and click ok. check full control to allow everyone permision to the file and click ok. click apply then ok to exit.
+</p>
 

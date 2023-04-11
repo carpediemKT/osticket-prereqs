@@ -104,8 +104,16 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
  Click on start type in IIS and run as an administrator. In IIS,you should see the PHP Manager we downloaded earlier. double click it and click on the Register new PHP version. Select the path of the new PHP by browsing to the PHP folder we created and selecting php-cgi. click ok and restart the  server by clicking on the vm and clicking restart under the Manage Server.
 </p>
 <br />
-<p>
-Download osTicket
-  
- https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-<p/>
+<h3>Download osTicket<h3/>
+<p>Download osTicket v1.15.8 from link</p>
+
+<img width="1361" alt="Screen Shot 2023-04-10 at 10 33 35 PM" src="https://user-images.githubusercontent.com/88648101/231044251-55c1602a-9ee0-44f0-8156-9f23301eb334.png">
+
+<img width="1171" alt="Screen Shot 2023-04-10 at 10 37 47 PM" src="https://user-images.githubusercontent.com/88648101/231044376-02adcfc9-663f-4184-b155-e232a7dda58f.png">
+
+<img width="1149" alt="Screen Shot 2023-04-10 at 10 39 55 PM" src="https://user-images.githubusercontent.com/88648101/231044479-2ee04646-f4e7-4e4c-a2fc-ea4ea83da3b8.png">
+
+<img width="1169" alt="Screen Shot 2023-04-10 at 10 51 45 PM" src="https://user-images.githubusercontent.com/88648101/231044584-e591c7c6-11fe-4c18-8354-8fbc9397619a.png">
+
+<img width="1126" alt="Screen Shot 2023-04-10 at 10 53 02 PM" src="https://user-images.githubusercontent.com/88648101/231044666-dceac4d0-b096-4790-a2ef-e8f9495d0e9c.png">
+

@@ -139,7 +139,7 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <br />
 
 <h3>Setting Permissions</h3>
-## we allow everyone to have access this file becuase it a lab and we will be using random users. 
+** we allow everyone to have access this file becuase it a lab and we will be using random users. 
 
 <img width="560" alt="Screen Shot 2023-04-11 at 11 32 34 AM" src="https://user-images.githubusercontent.com/88648101/231214563-2bbc874d-6b0f-4433-a3d7-ee3d1a463d1e.png">
 
@@ -151,6 +151,11 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 
 <img width="799" alt="Screen Shot 2023-04-11 at 11 38 55 AM" src="https://user-images.githubusercontent.com/88648101/231215637-e989f434-9862-4051-b492-890b0a4c0784.png">
 <p>
-  Right-click ost-config.php, click properties and go to security. Click Advance and disable inheritance. click on "Remove all inherited permisiions from this object". Click Add and then Select a principel. Type in "Everyone" in the box "Enter the object name to select", and click ok. check full control to allow everyone permision to the file and click ok. click apply then ok to exit.
+  Right-click ost-config.php, click properties and go to security. Click Advance and disable inheritance. click on "Remove all inherited permisiions from this object". Click Add and then Select a principel. Type in "everyone" and then check Names in the box "Enter the object name to select", and click ok. check full control to allow everyone permision to the file and click ok. click apply then ok to exit.
 </p>
+
+<p>osTicket continuation</p>
+<img width="1092" alt="Screen Shot 2023-04-11 at 5 26 17 PM" src="https://user-images.githubusercontent.com/88648101/231433890-7599dbbc-552c-4a23-823d-0094543788c5.png">
+<p>Return to the osTicket in the browser and fill out the basic information about your instance. Think of it as you are an administrator in a company and you are signing up for osTicket to be used by your organization. Make sure the information used are documented somewhere as it will be used to sign in to osTicket later.</p>
+
 

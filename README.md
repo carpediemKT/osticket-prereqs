@@ -160,5 +160,13 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <br />
 
 <h3>Download Heidi</h3>
+<p>Heidi SQL allows us to connect to the SQL server and create a database for osTicket to use.</p>
+
+<img width="633" alt="Screen Shot 2023-04-12 at 7 28 20 AM" src="https://user-images.githubusercontent.com/88648101/231444764-a24d41fc-a766-40a7-9e82-133bd59017a0.png">
+
+<img width="703" alt="Screen Shot 2023-04-12 at 7 30 23 AM" src="https://user-images.githubusercontent.com/88648101/231444788-76d3515b-4405-4440-92a1-4543741bbb72.png">
+
+<img width="957" alt="Screen Shot 2023-04-12 at 7 31 32 AM" src="https://user-images.githubusercontent.com/88648101/231444825-6d983c6d-8801-4104-8dee-6fef206a1ea5.png">
+
 
 

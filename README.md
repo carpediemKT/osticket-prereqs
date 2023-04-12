@@ -181,6 +181,21 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 In the osTicket browser, finish setting up "Database Settings" and click install now. In my example I recieved an error stating "conflicts with system email above". This is because I used the same email for the Help Desk setting and administrator settings. If you did the same change one of the email and then proceed to install. you should get a page success page.
 
 <img width="856" alt="Screen Shot 2023-04-12 at 7 52 01 AM" src="https://user-images.githubusercontent.com/88648101/231448753-afca4d7c-becc-4625-95d6-24dcf121f07e.png">
+<br />
 
 <h3>Clean Up</h3>
+
+- Delete: C:\inetpub\wwwroot\osTicket\setup
+<img width="1011" alt="Screen Shot 2023-04-12 at 7 58 19 AM" src="https://user-images.githubusercontent.com/88648101/231450206-726cac21-071e-4351-abbf-4a0779a04366.png">
+<p>Navigate to the setup folder in osTicket and delete it</p>
+
+- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<img width="996" alt="Screen Shot 2023-04-12 at 8 02 23 AM" src="https://user-images.githubusercontent.com/88648101/231451098-57dfe794-1065-4f2b-8fee-da7d5c20f9a5.png">
+<img width="764" alt="Screen Shot 2023-04-12 at 8 03 38 AM" src="https://user-images.githubusercontent.com/88648101/231451693-05a73d20-5637-43a4-b90f-2c801d58a89e.png">
+<img width="928" alt="Screen Shot 2023-04-12 at 8 04 25 AM" src="https://user-images.githubusercontent.com/88648101/231451718-e80035bc-da4b-4453-9566-61af634dfdd8.png">
+
+
+
+
+
 

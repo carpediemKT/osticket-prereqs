@@ -193,6 +193,7 @@ In the osTicket browser, finish setting up "Database Settings" and click install
 <img width="996" alt="Screen Shot 2023-04-12 at 8 02 23 AM" src="https://user-images.githubusercontent.com/88648101/231451098-57dfe794-1065-4f2b-8fee-da7d5c20f9a5.png">
 <img width="764" alt="Screen Shot 2023-04-12 at 8 03 38 AM" src="https://user-images.githubusercontent.com/88648101/231451693-05a73d20-5637-43a4-b90f-2c801d58a89e.png">
 <img width="928" alt="Screen Shot 2023-04-12 at 8 04 25 AM" src="https://user-images.githubusercontent.com/88648101/231451718-e80035bc-da4b-4453-9566-61af634dfdd8.png">
+<p>Navigate to osTicket and set permisions to Read and execute and Read.</p>
 
 
 

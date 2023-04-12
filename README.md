@@ -157,5 +157,8 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <p>osTicket continuation</p>
 <img width="1092" alt="Screen Shot 2023-04-11 at 5 26 17 PM" src="https://user-images.githubusercontent.com/88648101/231433890-7599dbbc-552c-4a23-823d-0094543788c5.png">
 <p>Return to the osTicket in the browser and fill out the basic information about your instance. Think of it as you are an administrator in a company and you are signing up for osTicket to be used by your organization. Make sure the information used are documented somewhere as it will be used to sign in to osTicket later.</p>
+<br />
+
+<h3>Download Heidi</h3>
 
 

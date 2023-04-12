@@ -178,7 +178,9 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 
 <img width="964" alt="Screen Shot 2023-04-12 at 7 45 38 AM" src="https://user-images.githubusercontent.com/88648101/231447643-c7420c9f-4ce1-45b2-8462-9a307bb29806.png">
 
-In the osTicket browser, finish setting up "Database Settings"
+In the osTicket browser, finish setting up "Database Settings" and click install now. In my example I recieved an error stating "conflicts with system email above". This is because I used the same email for the Help Desk setting and administrator settings. If you did the same change one of the email and then proceed to install. you should get a page success page.
 
+<img width="856" alt="Screen Shot 2023-04-12 at 7 52 01 AM" src="https://user-images.githubusercontent.com/88648101/231448753-afca4d7c-becc-4625-95d6-24dcf121f07e.png">
 
+<h3>Clean Up</h3>
 

@@ -199,6 +199,7 @@ In the osTicket browser, finish setting up "Database Settings" and click install
 <h3>Admin Login</h3>
  url for Admin login: http://localhost/osTicket/scp/login.php  
  <img width="1072" alt="Screen Shot 2023-04-12 at 8 12 20 AM" src="https://user-images.githubusercontent.com/88648101/231453796-f3fcc1e2-f856-4180-a595-f5a69cef8554.png">
+ 
  <p>And voila! we have come to the end of the osTicket Installation. There is a lot of moving steps but I hope this give you some perspective of what goes on behind the curtins of some of these applications. Hope you check out some of the practices with osTicket after this installation.</p>
 
  

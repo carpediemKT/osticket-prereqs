@@ -194,6 +194,14 @@ In the osTicket browser, finish setting up "Database Settings" and click install
 <img width="764" alt="Screen Shot 2023-04-12 at 8 03 38 AM" src="https://user-images.githubusercontent.com/88648101/231451693-05a73d20-5637-43a4-b90f-2c801d58a89e.png">
 <img width="928" alt="Screen Shot 2023-04-12 at 8 04 25 AM" src="https://user-images.githubusercontent.com/88648101/231451718-e80035bc-da4b-4453-9566-61af634dfdd8.png">
 <p>Navigate to osTicket and set permisions to Read and execute and Read.</p>
+<br />
+
+<h3>Admin Login</h3>
+ url for Admin login: http://localhost/osTicket/scp/login.php  
+ <img width="1072" alt="Screen Shot 2023-04-12 at 8 12 20 AM" src="https://user-images.githubusercontent.com/88648101/231453796-f3fcc1e2-f856-4180-a595-f5a69cef8554.png">
+ <p>And voila! we have come to the end of the osTicket Installation. There is a lot of moving steps but I hope this give you some perspective of what goes on behind the curtins of some of these applications. Hope you check out some of the practices with osTicket after this installation.</p>
+
+ 
 
 
 

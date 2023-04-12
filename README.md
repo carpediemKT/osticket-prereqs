@@ -29,6 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Rewrite Module (rewrite_amd64_en-US.msi)
 - PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
 - Microsoft Visual C++ Redistributable(2015-2022)
+- Heidi SQL
 
 <h2>Creating Resource Group and Virtual Machine in Azure </h2>
 <p>
@@ -167,6 +168,17 @@ Download MySQL Server 5.5. in the setup choose typical for type of setup and fin
 <img width="703" alt="Screen Shot 2023-04-12 at 7 30 23 AM" src="https://user-images.githubusercontent.com/88648101/231444788-76d3515b-4405-4440-92a1-4543741bbb72.png">
 
 <img width="957" alt="Screen Shot 2023-04-12 at 7 31 32 AM" src="https://user-images.githubusercontent.com/88648101/231444825-6d983c6d-8801-4104-8dee-6fef206a1ea5.png">
+<p>Install Heidi SQL version 12.3.0. After installing click New to create a new connection to the database. The default user name will be root, and enter the password you entered while creating the MySQL server. Click open to connect to the SQL server.</p>
+
+<p>Create a new database in Heidi by right-clicking on Unnamed and hovering on Create New. Name the database osTicket or something you will remember</p>
+<img width="953" alt="Screen Shot 2023-04-12 at 7 40 42 AM" src="https://user-images.githubusercontent.com/88648101/231446481-ddd4bc59-b514-474c-a2ca-1ebdd2532f93.png">
+
+
+<p>osTicket continuation</p>
+
+<img width="964" alt="Screen Shot 2023-04-12 at 7 45 38 AM" src="https://user-images.githubusercontent.com/88648101/231447643-c7420c9f-4ce1-45b2-8462-9a307bb29806.png">
+
+In the osTicket browser, finish setting up "Database Settings"
 
 
 
